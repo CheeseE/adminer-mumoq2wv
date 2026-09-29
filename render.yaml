@@ -3,6 +3,7 @@ services:
     name: adminer
     runtime: docker
     plan: free
+    region: frankfurt
     envVars:
       - key: ADMINER_DESIGN
         value: nette
